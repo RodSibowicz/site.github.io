@@ -1,0 +1,199 @@
+
+
+body {
+    background-color: #000000;
+    background-size: cover;
+  font-family: 'Tristan', monospace;
+    text-indent: 20px;
+    margin: 0;
+    padding: 0;
+    color: #ffffff
+}
+
+.page {
+    background-image: url("wow.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2e2e;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(71, 3, 3, 0.4);
+    gap: 5px
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid rgb(255, 255, 255) 3, 37;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #fffdfd;
+    transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+    color: #f72585;
+}
+
+.btn {
+    background-color: #25f7f7;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #ffffff;
+
+}
+
+header {
+    background-color: #333; 
+    padding: 10px; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+}
+
+nav li {
+    display: inline; 
+    margin-right: 20px; 
+    border-radius: 10px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #fff; 
+    padding: 5px 10px; 
+}
+
+nav a:hover {
+    background-color: #555555; 
+    border-radius: 10px; 
+}
+
+.button {
+    float: right;
+    border-radius: 4px;
+    background-color: rgb(46, 46, 46);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+
+  body, h1, h2, h3, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+
+
+
+td img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.wow-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+
+.wow-button-default {
+    color: #fff;
+    background: linear-gradient(to bottom, #000304, #0dff00);
+}
+
+
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Tristan&display=swap');

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <img src="https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt03dc217d0e54036a/5dbb29281b83a568128c8c9d/Shadowlands_Logo.png" alt="WoWShadowlands" height="100" width="300">
+                    <button class="button" ><a href="C:\Users\marlon R DEV\Desktop\cadastro jogo\cadastro.html">Cadastro</a></button>
+                    <button class="button"><a href="http://localhost:8081/listar">Relatório de players</a></button>
+                   
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <div class="page">
+        <form action="/formulario" method="POST" class="formLogin" enctype="multipart/form-data">
+            <h1>cadastro</h1>
+            <p>Digite            os              seus             dados</p>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autofocus="true" />
+            <label for="Nickname">Nickname</label>
+            <input type="text" name="nickname" id="nickname"placeholder="Digite seu Nickname" autofocus="true" />
+            <label for="email">Email</label>
+            <input type="email"name="email" id="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="Bio">Bio</label>
+            <textarea placeholder="Digite sobre você" name="bio" id="bio" autofocus="true"> </textarea>
+            <label for="cidade" >Cidade</label>
+            <input type="text" name="cidade" id="cidade"placeholder="Digite sua cidade" autofocus="true" />
+            <label for="endereco">Estado</label>
+
+            <select id="estado" name="estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>
+            
+           
+            <label for="password">Senha</label>
+            <input type="password" id="pass" name="password" minlength="8" required />
+           
+            <label for="imagem">Imagem de Perfil</label>
+            <input type="file" id="imagem" name="imagem" accept="image/*"><br>
+
+            <button class="wow-button wow-button-default">Cadastrar</button>
+            
+        </form>
+        
+    </div>
+ 
+    
+</body>
+</html>
