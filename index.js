@@ -70,7 +70,7 @@ app.post('/formulario', upload.single('imagem'), (req, res) =>{
 })
 
 app.listen(8081, function(){
-    console.log("servidor rodando na url: http://localhost:8081") 
+    console.log("servidor rodando na url: https://rodsibowicz.github.io/site.github.io") 
 })
 
 
